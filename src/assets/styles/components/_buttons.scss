@@ -1,0 +1,25 @@
+$gradient: linear-gradient(90deg, $primary_300 3.25%, $primary_200 100%);
+
+.en-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 32rem;
+  padding: 1.6rem;
+  gap: 1rem;
+  background: $gradient;
+  border-radius: 1rem;
+  font-size: 2rem;
+  color: $white;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 400px) {
+  .en-btn {
+    width: 18rem;
+    font-size: 1rem;
+    font-weight: normal;
+  }
+}
